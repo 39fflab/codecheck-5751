@@ -1,10 +1,17 @@
-# Node Modules for testing
-node_modules
+# Managed by Composer
+/app/bootstrap.php.cache
+/var/bootstrap.php.cache
+/bin/*
+/vendor/
 
-# Backups
-*sw[a-z]
-*~
+# PHPUnit
+/app/phpunit.xml
+/phpunit.xml
 
-# OS garbage
-.DS_Store
-Thumbs.db
+# Build data
+/build/
+
+# Composer PHAR
+/composer.phar
+
+node_modules/
